@@ -37,6 +37,6 @@ type PricingInfo record{
     string currency;
 };
 
-string apiKey = ?;
-string clientId = ?;
-string clientSecret = ?;
+configurable string apiKey = ?;
+configurable string clientId = ?;
+configurable string clientSecret = ?;
